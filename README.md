@@ -1,4 +1,4 @@
-# soundza-com
+# Soundza
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,129 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-soundza-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://soundza.com/
+Soundza provides a large library of royalty‑free sound effects, music loops, and sample packs for creators. The platform offers a REST API and MCP server allowing developers and AI agents to search, preview, and download sounds programmatically. All content is free for personal and commercial use, with no attribution required, and the service includes tools for generating variations and integrating audio into games, videos, and apps.
+
+**Areas:** Audio · Free · Royalty-Free · Sound Effects · Music Loops · Sample Packs
+
+## Soundza on APIs.io
+
+Everything profiled for Soundza is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/soundza-com/](https://apis.io/providers/soundza-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (7)
+
+- [Soundza Generations API](https://apis.io/apis/soundza-com/soundza-com-generations-api/) — The Generations API from Soundza — 2 operation(s) for generations.
+- [Soundza Music API](https://apis.io/apis/soundza-com/soundza-com-music-api/) — The Music API from Soundza — 2 operation(s) for music.
+- [Soundza Packs API](https://apis.io/apis/soundza-com/soundza-com-packs-api/) — The Packs API from Soundza — 2 operation(s) for packs.
+- [Soundza Removals API](https://apis.io/apis/soundza-com/soundza-com-removals-api/) — The Removals API from Soundza — 1 operation(s) for removals.
+- [Soundza Sounds API](https://apis.io/apis/soundza-com/soundza-com-sounds-api/) — The Sounds API from Soundza — 4 operation(s) for sounds.
+- [Soundza Uploads API](https://apis.io/apis/soundza-com/soundza-com-uploads-api/) — The Uploads API from Soundza — 1 operation(s) for uploads.
+- [Soundza Variations API](https://apis.io/apis/soundza-com/soundza-com-variations-api/) — The Variations API from Soundza — 1 operation(s) for variations.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Soundza Agentic Access](https://apis.io/agentic-access/soundza-com/soundza-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [CreateSoundRequest](https://apis.io/schemas/soundza-com/soundza-com-create-sound-request/)
+- [Generation](https://apis.io/schemas/soundza-com/soundza-com-generation/)
+- [MusicGeneration](https://apis.io/schemas/soundza-com/soundza-com-music-generation/)
+- [SearchResponse](https://apis.io/schemas/soundza-com/soundza-com-search-response/)
+- [Sound](https://apis.io/schemas/soundza-com/soundza-com-sound/)
+- [VariationRequest](https://apis.io/schemas/soundza-com/soundza-com-variation-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Soundza Com Context](https://apis.io/jsonld/soundza-com/soundza-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Soundza API Rules](https://apis.io/rules/soundza-com/soundza-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Soundza Authentication](https://apis.io/security/soundza-com/soundza-com-authentication/)
+- [Soundza Domain Security](https://apis.io/security/soundza-com/soundza-com-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://soundza.com/)
+- [Documentation](https://soundza.com/developers)
+- [Getting started](https://soundza.com/signup)
+- [API reference](https://soundza.com/developers)
+- [Sign up](https://soundza.com/signup)
+- [Blog](https://soundza.com/blog)
+- [Terms of service](https://soundza.com/terms-of-service)
+- [Privacy policy](https://soundza.com/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 49.8** — developing · rubric 0.27.0 · scored 2026-11-25
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 62.7 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 49.3 |
+| Access clarity | 34.2 |
+
+**Agent readiness 58.7** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/soundza-com/](https://apis.io/providers/soundza-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Soundza: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/soundza-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
